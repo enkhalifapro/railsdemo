@@ -1,0 +1,35 @@
+<%= form_for(:user, :url => {:action => 'create'}) do |f| %>
+    <div>
+      <div>
+        User Name:
+      </div>
+      <div>
+        <%= f.text_field(:username) %>
+      </div>
+    </div>
+    <div>
+      <div>
+        Password:
+      </div>
+      <div>
+        <%= f.password_field(:password) %>
+      </div>
+    </div>
+    <div>
+      <div>
+        First Name:
+      </div>
+      <div>
+        <%= f.text_field(:first_name) %>
+      </div>
+    </div>
+    <div>
+      <div>
+        Last Name:
+      </div>
+      <div>
+        <%= f.text_field(:last_name) %>
+      </div>
+    </div>
+    <%= submit_tag('save') %>
+<% end %>

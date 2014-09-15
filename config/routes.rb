@@ -5,7 +5,13 @@ Demo::Application.routes.draw do
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
-
+     match 'users/index' => 'users#index'
+     match 'users/new' => 'users#new'
+     match 'users/create' => 'users#create', via: :post
+     match 'users/edit/:id' => 'users#edit'
+     match 'users/update/:id' => 'users#update', via: :post
+     match 'users/delete/:id' => 'users#delete'
+     match 'users/destroy/:id' => 'users#destroy', via: :post
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)

@@ -1,0 +1,39 @@
+<%= link_to('New user', {:action => 'new'}) %>
+<table>
+  <tr>
+    <th>
+      user name
+    </th>
+    <th>
+      password
+    </th>
+    <th>
+      first name
+    </th>
+    <th>
+      last name
+    </th>
+    <th></th>
+  </tr>
+  <% @users.each { |t| %>
+      <tr>
+        <td>
+          <%= t.username %>
+        </td>
+        <td>
+          <%= t.password %>
+        </td>
+        <td>
+          <%= t.first_name %>
+        </td>
+        <td>
+          <%= t.last_name %>
+        </td>
+        <td>
+          <%= link_to('Edit', {:action => 'edit', :id => t.id}) %>
+          | <%= link_to('Edit', {:action => 'delete', :id => t.id}) %>
+        </td>
+      </tr>
+  <% } %>
+</table>
+
