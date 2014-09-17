@@ -1,1 +1,4 @@
-<%=form_tag() %>
+<%= form_for(:user, :url => {:action => 'destroy', :id => @user.id}) do %>
+    <h1>Are you sure?</h1>
+    <%= submit_tag('Yes') %>
+<% end %>

@@ -15,7 +15,7 @@ test:
 
 production:
   adapter: postgresql
-  database: demodbproduction
-  host: localhost
-  username: postgres
-  password: dbadmin
+  database: d2dc8clroo9roo
+  host: ec2-107-20-245-187.compute-1.amazonaws.com
+  username: uambymohlvsghm
+  password: hhpDuuhHE8MyF-Cx1inpbHm3Yv

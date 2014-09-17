@@ -26,7 +26,7 @@ class UsersController < ApplicationController
   end
 
   def delete
-
+    @user=User.find(params[:id])
   end
 
   def destroy

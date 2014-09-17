@@ -20,9 +20,9 @@
     <data-source source="LOCAL" name="Rails demo: production" uuid="f90e6f4a-6b57-459c-85d4-ccf55fa1014f">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/demodbproduction</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>dfcedfc8dfcbdfcedfc7dfc3dfc4</user-password>
+      <jdbc-url>jdbc:postgresql://ec2-107-20-245-187.compute-1.amazonaws.com/d2dc8clroo9roo</jdbc-url>
+      <user-name>uambymohlvsghm</user-name>
+      <user-password>dfc2dfc2dfdadfeedfdfdfdfdfc2dfe2dfefdf92dfe7dfd3dfecdf87dfe9dfd2df9bdfc3dfc4dfdadfc8dfe2dfc7df99dff3dfdc</user-password>
       <libraries />
     </data-source>
   </component>
